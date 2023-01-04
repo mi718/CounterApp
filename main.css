@@ -1,0 +1,124 @@
+body{ 
+ /* background-color: rgb(138, 205, 167); */
+ background-color: rgb(0, 0, 0);
+}
+
+header{
+ background-color: rgba(255, 255, 255, 0.519);
+ height: 80vh;
+ border-radius: 3rem;
+ margin-left: 3rem;
+ margin-right: 3rem;
+}
+
+h1{
+ -webkit-text-stroke: 1px black;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: 15vh;
+ color: rgb(138, 205, 167);
+ text-align: center;
+ padding-top: 7%;
+ margin: 0;
+}
+
+h2 , h3{
+ -webkit-text-stroke: 1px black;
+ font-weight: bolder;
+ font-size: 10vh;
+ text-align: center;
+ color: rgb(255, 255, 255);
+ background-color: rgb(138, 205, 167);
+ border-radius: 2rem;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button{
+ display: flex;
+ border: none;
+ padding-top: 2vh;
+ padding-bottom: 1.5vh;
+ color: white;
+ font-size: 1vw;
+ /*  */
+ font-weight: bolder;
+ width: 12vw;
+ margin-bottom: 5px;
+ border-radius: 5px;
+ margin-left: 35%;
+}
+
+#increment-btn{
+ background: darkgreen;
+ padding-top: 4vh;
+ padding-bottom: 4vh;
+}
+
+#decrease-btn{
+ background: darkred;
+}
+
+#save-btn{
+ background: darkblue;
+}
+
+#infoTable td,th{
+ border-style: solid;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ color: rgb(255, 255, 255);
+ border-collapse: collapse;
+ border: 1px;
+ border-style: solid;
+ border-color: black;
+ padding: 1vw;
+ align-self: center;
+}
+
+td{
+ font-weight: bolder;
+ font-size: 1vw;
+}
+
+th{
+ font-size: 1vw;
+}
+
+main{
+ background-color: rgba(255, 255, 255, 0.241);
+ margin-top: 3vh;
+ margin-bottom: 3rem;
+ padding-bottom: 10rem;
+ border-radius: 3rem;
+ margin-left: 5rem;
+ margin-right: 5rem;
+
+}
+
+.sectionAll{
+ display: grid;
+ grid-template-columns: 50% 50%;
+ margin-left: 10%;
+ gap: 10rem;
+ margin-bottom: 10vh;
+}
+
+#sectionInfo{
+ margin-top: 10rem;
+}
+
+footer{
+ background-color: rgba(255, 255, 255, 0.519);
+ border-radius: 3rem;
+ margin-left: 3rem;
+ margin-right: 3rem;
+}
+
+.infoApp{
+ display: flex;
+ justify-content: space-between;
+ margin-left: 1rem;
+ margin-right: 1rem;
+}
+
+p{
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
