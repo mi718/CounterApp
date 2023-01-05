@@ -18,8 +18,18 @@ function decrease(){
 
 }
 
+let id = 1
+let day = document.getElementById(id)
+let average = document.getElementById("average-th")
+let globalCount = 0
+ console.log(globalCount)
+
+
 function save(){
- let number = count
- count = 0
- countEl.innerText = count
+ globalCount += count
+ average.innerText = globalCount / id
+ day.innerText = count
+ id+=1
+ day = document.getElementById(id)
+ average = document.getElementById("average-th")
 }

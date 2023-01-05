@@ -4,10 +4,19 @@ body{
 
 header{
  background-color: #90ADC6;
- height: 80vh;
+ height: 60vh;
  border-radius: 3rem;
- margin-left: 3rem;
- margin-right: 3rem;
+ margin-left: 5vw;
+ margin-right: 5vw;
+}
+
+main {
+ background-color: #90adc64a;
+ border-radius: 1rem;
+ margin-left: 5vw;
+ margin-right: 5vw;
+ padding-bottom: 20vh;
+ margin-bottom: 5vh;
 }
 
 h1{
@@ -31,25 +40,28 @@ h2 , h3{
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+
+.btn-text{
+ font-size: 2vw;
+ margin-left: auto;
+ margin-right: auto;
+}
+
 button{
  display: flex;
  border: none;
- padding-top: 2vh;
- padding-bottom: 1.5vh;
  color: white;
- font-size: 1vw;
- font-weight: bolder;
- width: 12vw;
- margin-bottom: 5px;
- border-radius: 5px;
+ margin: 4px 2px;
+ text-align: center;
+ border-radius: 8px;
+ width: 20vw;
+ height: 15vh;
  margin-left: auto;
  margin-right: auto;
 }
 
 #increment-btn{
  background: darkgreen;
- padding-top: 4vh;
- padding-bottom: 4vh;
 }
 
 #decrease-btn{
@@ -61,7 +73,6 @@ button{
 }
 
 #infoTable td,th{
- border-style: solid;
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  color: #333652;
  border-collapse: collapse;
@@ -69,7 +80,18 @@ button{
  border-style: solid;
  border-color: #333652;
  padding: 1vw;
- align-self: center;
+ 
+}
+
+.average-tbl{
+ margin-top: 4vh;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+#average{
+ font-size: 2vw;
+ font-weight: bolder;
 }
 
 #infoTable{
@@ -80,24 +102,12 @@ button{
 
 td{
  font-weight: bolder;
- font-size: 1vw;
+ font-size: 2vw;
 }
 
 th{
- font-size: 1vw;
+ font-size: 2vw;
 }
-
-main{
- background-color: #90adc64a;
- margin-top: 3vh;
- margin-bottom: 3rem;
- padding-bottom: 10rem;
- border-radius: 3rem;
- margin-left: 5rem;
- margin-right: 5rem;
-
-}
-
 
 footer{
  background-color: rgba(255, 255, 255, 0.519);
