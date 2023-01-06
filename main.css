@@ -12,7 +12,7 @@ header{
 
 main {
  background-color: #90adc64a;
- border-radius: 1rem;
+ border-radius: 2rem;
  margin-left: 5vw;
  margin-right: 5vw;
  padding-bottom: 20vh;
@@ -60,6 +60,22 @@ button{
  margin-right: auto;
 }
 
+button :hover{
+  color: #FAD02C;
+}
+
+#save-btn :hover{
+  color: #333652;
+}
+
+#clear-btn :hover {
+  color: #33365259;
+}
+
+#options{
+  display: none;
+}
+
 #increment-btn{
  background: darkgreen;
 }
@@ -70,6 +86,33 @@ button{
 
 #save-btn{
  background: #FAD02C;
+}
+
+#clear-btn{
+ background-color: #fad12c84;
+ width: 8vw;
+ height:12vh;
+}
+
+#restartLink{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+A:link {
+  text-decoration: none;
+  color: black;
+}
+
+A:hover {
+  color: black;
+  text-decoration: none
+}
+
+A:visited {
+  color: black;
+  font-family: monospace;
+  text-decoration: none
 }
 
 #infoTable td,th{
